@@ -1,0 +1,1 @@
+ATTRS{idVendor}=="1532", ATTRS{idProduct}=="051c", ENV{PULSE_PROFILE_SET}="razer-nari-usb-audio.conf"

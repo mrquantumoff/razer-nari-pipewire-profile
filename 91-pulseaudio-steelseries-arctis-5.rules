@@ -1,3 +1,0 @@
-ATTRS{idVendor}=="1038", ATTRS{idProduct}=="1250", ENV{PULSE_PROFILE_SET}="steelseries-arctis-5-usb-audio.conf"
-ATTRS{idVendor}=="1038", ATTRS{idProduct}=="12aa", ENV{PULSE_PROFILE_SET}="steelseries-arctis-5-usb-audio.conf"
-

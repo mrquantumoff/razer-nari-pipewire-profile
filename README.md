@@ -1,26 +1,25 @@
-# SteelSeries Arctis 5 pulseaudio profile
+# Razer Nari pulseaudio profile
 
-The SteelSeries Arctis 5 is a gaming headset which has two stereo audio outputs. One for voice chat and one for the rest of the sound. It can be mixed between with a physical knob.
+The Razer Nari is a gaming headset which has two stereo audio outputs. One for voice chat and one for the rest of the sound. It can be mixed between with a physical knob.
 
 By default, pulseaudio only enables the voice chat output. This profile enables the second (game) output and the udev rule makes sure this profile is used when plugging in the device.
 
+This solves the problem when only **mono** output is recognized for Nari.
+
 ## Installing
 
-### Ubuntu / Linux Mint
+Install by copying the following files:
 
-Download and install:
+- `razer-nari-output-game.conf` and `razer-nari-output-chat.conf` to `/usr/share/pulseaudio/alsa-mixer/paths/`
+- `razer-nari-usb-audio.conf` to `/usr/share/pulseaudio/alsa-mixer/profile-sets/`
+- `91-pulseaudio-razer-nari.rules` to `/lib/udev/rules.d/`
 
-- [pulseaudio-steelseries-arctis-5_0.3_all.deb](https://github.com/DemonTPx/steelseries-arctis-5-pulseaudio-profile/releases/download/0.3/pulseaudio-steelseries-arctis-5_0.3_all.deb)
-
-After that, plug in the device to see if it works.
-
-### From source
-
-Install from by copying the following files:
-
-- `steelseries-arctis-5-output-game.conf` and `steelseries-arctis-5-output-chat.conf` to `/usr/share/pulseaudio/alsa-mixer/paths/`
-- `steelseries-arctis-5-usb-audio.conf` to `/usr/share/pulseaudio/alsa-mixer/profile-sets/`
-- `91-pulseaudio-steelseries-arctis-5.rules` to `/lib/udev/rules.d/`
+Script:
+```
+cp razer-nari-output-{game,chat}.conf /usr/share/pulseaudio/alsa-mixer/paths/
+cp razer-nari-usb-audio.conf /usr/share/pulseaudio/alsa-mixer/profile-sets/
+cp 91-pulseaudio-razer-nari.rules /lib/udev/rules.d/
+```
 
 Restart pulseaudio:
 
