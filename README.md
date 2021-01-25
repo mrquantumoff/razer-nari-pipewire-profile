@@ -13,12 +13,14 @@ This solves the problem when only **mono** output is recognized for Nari.
 Install the package [from the AUR](https://aur.archlinux.org/packages/razer-nari-pulseaudio-profile/)
 
 #### Devices not recognized on Arch
-There is an update in the Arch `pulseaudio` package (https://github.com/imustafin/razer-nari-pulseaudio-profile/issues/5)
+There was an update in the Arch `pulseaudio` package (https://github.com/imustafin/razer-nari-pulseaudio-profile/issues/5)
 which changes the location of the profile files.
 
-For the latest news, see (https://github.com/imustafin/razer-nari-pulseaudio-profile/issues/7).
+In pulseaudio `14.2-2` this was reverted
+(https://github.com/imustafin/razer-nari-pulseaudio-profile/issues/12). If you
+are using pulseaudio `>= 14.2-2`, then use the usual instructions for other distros.
 
-Until AUR package is updated, please use these alternative locations:
+If you are using pulseaudio `>= 13.99.2+7+g6101798c7, < 14.2-2` then use these instructions:
 - `razer-nari-input.conf`, `razer-nari-output-game.conf` and `razer-nari-output-chat.conf` should go to `/usr/share/alsa-card-profile/mixer/paths/`
 - `razer-nari-usb-audio.conf` should go to `/usr/share/alsa-card-profile/mixer/profile-sets/`
 - `91-pulseaudio-razer-nari.rules` to `/lib/udev/rules.d/` as usual
