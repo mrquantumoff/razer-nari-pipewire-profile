@@ -8,6 +8,14 @@ This solves the problem when only **mono** output is recognized for Nari.
 
 ## Installing
 
+### PipeWire
+
+If you use PipeWire and you see the default profiles (names like *Multichannel*)
+but not these profiles (names like *Game Output*, *Chat Output*), then
+you might need to change the udev rules.
+
+In `91-pulseaudio-razer-nari.rules` change `PULSE_PROFILE_SET` to `ACP_PROFILE_SET`.
+
 ### Arch Linux
 
 Install the package [from the AUR](https://aur.archlinux.org/packages/razer-nari-pulseaudio-profile/)
