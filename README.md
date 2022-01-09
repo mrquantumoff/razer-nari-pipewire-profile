@@ -8,7 +8,7 @@ This solves the problem when only **mono** output is recognized for Nari.
 
 ### Arch Linux
 
-Install the package [from the AUR](https://aur.archlinux.org/packages/razer-nari-pulseaudio-profile/)
+Install the package [from the AUR](https://aur.archlinux.org/packages/razer-nari-pipewire-profile/)
 
 ### Other Linux Systems
 
