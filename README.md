@@ -1,4 +1,4 @@
-# Razer Nari pulseaudio profile
+# Razer Nari pipewire profile
 
 The Razer Nari is a gaming headset which has two stereo audio outputs. One for voice chat and one for the rest of the sound. It can be mixed between with a physical knob.
 
