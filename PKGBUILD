@@ -29,8 +29,8 @@ package() {
 	mkdir -p $pkgdir/usr/share/alsa-card-profile/mixer/paths/
 	mkdir -p $pkgdir/usr/share/alsa-card-profile/mixer/profile-sets/
 	mkdir -p $pkgdir/lib/udev/rules.d/
-	cp razer-nari-input.conf $pkgdir/usr/share/alsa-card-profile/mixer/paths/
-	cp razer-nari-output-{game,chat}.conf $pkgdir/usr/share/alsa-card-profile/mixer/paths/
-	cp razer-nari-usb-audio.conf $pkgdir/usr/share/alsa-card-profile/mixer/profile-sets/
-	cp 91-pulseaudio-razer-nari.rules $pkgdir/lib/udev/rules.d/
+	cp -f razer-nari-input.conf $pkgdir/usr/share/alsa-card-profile/mixer/paths/
+	cp -f razer-nari-output-{game,chat}.conf $pkgdir/usr/share/alsa-card-profile/mixer/paths/
+	cp -f razer-nari-usb-audio.conf $pkgdir/usr/share/alsa-card-profile/mixer/profile-sets/
+	cp -f 91-pulseaudio-razer-nari.rules $pkgdir/lib/udev/rules.d/
 }
