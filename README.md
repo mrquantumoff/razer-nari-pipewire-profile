@@ -11,16 +11,12 @@ This solves the problem when only **mono** output is recognized for Nari.
 Install the package [from the AUR](https://aur.archlinux.org/packages/razer-nari-pipewire-profile/)
 
 ### Other Linux Systems
-
-``cd`` into the ``razer-nari-pipewire-profile`` folder and run ``sudo chmod +x install.sh && sudo ./install.sh``
-
-
-#### Or you may try using automated script 
+#### Automated script (Recommended)
 
 ```shell
 curl -fssL https://github.com/mrquantumoff/razer-nari-pipewire-profile/raw/master/autoinstall.sh | sh
 ```
-
+#### Or clone the repo ```cd``` in it and run ```./install.sh```
 
 ### Other
 
