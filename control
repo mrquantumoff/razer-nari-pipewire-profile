@@ -1,8 +1,0 @@
-Package: pulseaudio-razer-nari
-Version: 0.3
-Maintainer: Ilgiz Mustafin <ilgimustafin@gmail.com>
-Homepage: https://github.com/imustafin/razer-nari-pulseaudio-profile
-Architecture: all
-Depends: pulseaudio, udev
-Section: sound
-Description: Pulseaudio configuration for the Razer Nari
