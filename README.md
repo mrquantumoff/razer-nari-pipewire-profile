@@ -12,7 +12,11 @@ Install the package [from the AUR](https://aur.archlinux.org/packages/razer-nari
 
 ### Other Linux Systems
 
-``cd`` into the ``razer-nari-pipewire-profile`` folder and run ``sudo chmod +x install.sh && ./install.sh``
+``cd`` into the ``razer-nari-pipewire-profile`` folder and run ``sudo chmod +x install.sh && sudo ./install.sh``
+Or you may try using automated script ```shell
+curl -fssL https://github.com/mrquantumoff/razer-nari-pipewire-profile/raw/master/autoinstall.sh | sh
+```
+
 
 ### Other
 
