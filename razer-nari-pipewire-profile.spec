@@ -4,7 +4,7 @@ Release:    2
 Summary:    Razer Nari Pipewire Profile
 License:    MIT
 BuildArch:  x86_64
-Requires:   pipewire-pulse,pipewire
+Requires:   pipewire-pulseaudio,pipewire
 BuildRequires: coreutils wget
 
 %description
