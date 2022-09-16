@@ -10,6 +10,11 @@ This solves the problem when only **mono** output is recognized for Nari.
 
 Install the package [from the AUR](https://aur.archlinux.org/packages/razer-nari-pipewire-profile/)
 
+
+### Fedora Linux
+
+Binary package is available in [releases tab](https://github.com/mrquantumoff/razer-nari-pipewire-profile/releases/download/v1.1/razer-nari-pipewire-profile-1.1-2.x86_64.rpm)
+
 ### Other Linux Systems
 #### Automated script (Recommended)
 
