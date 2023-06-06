@@ -1,5 +1,7 @@
 # Razer Nari pipewire profile
 
+## Warning: I no longer use a Razer Nari headset. This means that this repo is no longer maintained. I won't be deleting the AUR package, since as far as I know the profile still works.
+
 The Razer Nari is a gaming headset which has two stereo audio outputs. One for voice chat and one for the rest of the sound. It can be mixed between with a physical knob.
 
 By default, pulseaudio/pipewire only enables the voice chat output. This profile enables the second (game) output and the udev rule makes sure this profile is used when plugging in the device.
